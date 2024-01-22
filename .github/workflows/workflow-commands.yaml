@@ -14,4 +14,4 @@ jobs:
       - name: Setting an notice message with params
         run: echo "::notice title=Notice title,file=app.js,line=2,endline=3,col=5,endColumn=7::Missing SemiColon"
       - name: Setting an error message with params
-        run: echo "::error title=Error title,file=app.js,line=2,endline=3,col=5,endColumn=7::Missing SemiColon"
+        run: echo "::error title=Error title,file=app.js,line=2,endline=3,col=5,endColumn=7::Missing SemiColons"
